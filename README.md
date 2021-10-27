@@ -6,10 +6,12 @@ This project is following the [Getting Started guide](https://guides.rubyonrails
 
 - [ ] how to setup (TypeScript-style) autocomplete for Rails-related stuff in VSCode?
 - [ ] how to do automatic code formatting? (With Rubocop?)
+- [ ] how to use env vars?
 
 ## To-do
 
 - [ ] testing
+- [ ] deployment
 
 ## Original README below
 
