@@ -4,14 +4,17 @@ This project is following the [Getting Started guide](https://guides.rubyonrails
 
 ## Open questions
 
-- [ ] how to setup (TypeScript-style) autocomplete for Rails-related stuff in VSCode?
-- [ ] how to do automatic code formatting? (With Rubocop?)
-- [ ] how to use env vars?
+- [ ] How to setup (TypeScript-style) autocomplete for Rails-related stuff in VSCode?
+- [ ] How to do automatic code formatting? (With Rubocop?)
+- [ ] How to use env vars?
 
-## To-do
+## To explore
 
-- [ ] testing
-- [ ] deployment
+- [ ] Testing
+- [ ] Deployment
+- [ ] Styling with Tailwind
+- [ ] View Components
+- [ ] Hotwire
 
 ## Original README below
 
