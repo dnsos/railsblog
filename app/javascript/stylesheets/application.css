@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-blue-500;
+  }
+
+  button,
+  input[type="submit"] {
+    @apply bg-blue-700 text-white p-2;
+  }
+}
