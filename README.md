@@ -17,6 +17,24 @@ This project is following the [Getting Started guide](https://guides.rubyonrails
 - [ ] View Components
 - [ ] Hotwire
 
+## Styling
+
+For styling TailwindCSS is used:
+
+Run the Webpack Dev Server for Tailwind:
+
+```bash
+bin/webpack-dev-server
+```
+
+In another shell, start the Rails server:
+
+```bash
+bin/rails s
+```
+
+Updating styles via Tailwind should now be simple and fast (using Tailwind's JIT engine).
+
 ## Original README below
 
 This README would normally document whatever steps are necessary to get the
