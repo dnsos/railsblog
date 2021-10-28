@@ -11,4 +11,10 @@
   input[type="submit"] {
     @apply bg-blue-700 text-white p-2;
   }
+
+  input[type="text"],
+  textarea,
+  select {
+    @apply border border-gray-500;
+  }
 }
