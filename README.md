@@ -6,7 +6,7 @@ This project is following the [Getting Started guide](https://guides.rubyonrails
 
 - [ ] How to setup (TypeScript-style) autocomplete for Rails-related stuff in VSCode?
 - [ ] How to do automatic code formatting? (With Rubocop?)
-- [ ] How to use env vars?
+- [x] How to use env vars?
 - [ ] How to get Tailwind Intellisense work in .html.erb files? (without sacrifizing the Ruby highlighting)
 
 ## To explore
@@ -16,6 +16,7 @@ This project is following the [Getting Started guide](https://guides.rubyonrails
 - [x] Styling with Tailwind
 - [ ] View Components
 - [ ] Hotwire
+- [ ] Auth with Devise
 
 ## Styling
 
