@@ -8,8 +8,6 @@ jobs:
   tests:
     strategy:
       matrix:
-        ruby-version:
-          - "2.7.1"
         rails-version:
           - "6.1.3"
         continue-on-error: [ false ]
@@ -17,7 +15,7 @@ jobs:
     env:
       RAILS_VERSION: "${{ matrix.rails-version }}"
 
-    name: ${{ format('Tests (Ruby {0}, Rails {1})', matrix.ruby-version, matrix.rails-version) }}
+    name: Tests
     runs-on: ubuntu-latest
     continue-on-error: ${{ matrix.continue-on-error }}
 
@@ -27,7 +25,8 @@ jobs:
       - name: Setup Ruby and install gems
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ matrix.ruby-version }}
+          # Not necessary to specify rube-version when file .ruby-version exists
+          # ruby-version: ${{ matrix.ruby-version }}
           bundler-cache: true
 
       - name: Prepare DB and run tests
