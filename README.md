@@ -11,7 +11,9 @@ This project is following the [Getting Started guide](https://guides.rubyonrails
 
 ## To explore
 
-- [ ] Testing
+- [x] Testing (basics, not advanced stuff)
+- [ ] Running tests via GitHub Actions
+- [ ] RSpec
 - [ ] Deployment
 - [x] Styling with Tailwind
 - [ ] View Components
