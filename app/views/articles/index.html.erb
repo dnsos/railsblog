@@ -1,6 +1,4 @@
-<h1>Articles</h1>
-
-<p>Our blog has <%= Article.public_count %> articles and counting!</p>
+<h1>Articles <span class='text-sm px-1 py-0.5 bg-red-300 rounded-md'><%= Article.public_count %></span></h1>
 
 <% @articles.each do |article| %>
   <li>
