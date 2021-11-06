@@ -7,6 +7,14 @@
     @apply text-blue-500;
   }
 
+  h1 {
+    @apply text-3xl;
+  }
+
+  li {
+    @apply list-none;
+  }
+
   button,
   input[type="submit"] {
     @apply bg-blue-700 text-white p-2;
