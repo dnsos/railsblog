@@ -2,4 +2,9 @@ en:
   articles:
     all: "All Articles"
     new: "New Article"
-    edit: "Edit Article"
+    form:
+      labels:
+        title: "Title"
+        body: "Content"
+        status: "Status"
+      submit: "Create Article"
