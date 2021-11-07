@@ -2,4 +2,13 @@
   <%= t('articles.new') %>
 </h1>
 
-<%= render "form", article: @article %>
+<div class="grid gap-2 grid-cols-1">
+  <%= render "form", article: @article %>
+  <div id='map'></div>
+</div>
+
+<style>
+  #map { height: 500px; }
+</style>
+
+<%= javascript_pack_tag 'map' %>
