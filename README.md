@@ -21,6 +21,7 @@ This project is following the [Getting Started guide](https://guides.rubyonrails
 - [ ] Auth with Devise
 - [x] I18n basics
 - [x] Leaflet in Rails
+- [ ] Postgis
 
 ## Styling
 
