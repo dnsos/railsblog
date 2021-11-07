@@ -5,7 +5,7 @@ Rails.application.routes.draw do
     end
   end
 
-  get '/:locale' => 'articles#index'
+  get '/:locale' => 'articles#index', :as => 'locale_root'
 
   root 'articles#index'
 

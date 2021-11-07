@@ -4,7 +4,9 @@
     'flex place-content-between'
   ].join(' ')
 %>'>
-  <div>Railsblog</div>
+  <div>
+    <%= link_to "Railsblog", locale_root_path %>
+  </div>
   <nav>
     <ul class='flex gap-2'>
       <li><%= link_to_unless I18n.locale == :en, "EN", locale: :en %></li>
