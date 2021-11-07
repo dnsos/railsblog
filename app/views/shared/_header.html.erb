@@ -1,13 +1,14 @@
 <header class='<%= 
   [ 'border-b border-gray-500',
+    'p-4',
     'flex place-content-between'
   ].join(' ')
 %>'>
   <div>Railsblog</div>
   <nav>
-    <ul>
-      <li>Articles</li>
-      <li>Docs</li>
+    <ul class='flex gap-2'>
+      <li><%= link_to_unless I18n.locale == :en, "EN", locale: :en %></li>
+      <li><%= link_to_unless I18n.locale == :de, "DE", locale: :de %></li>
     </ul>
   </nav>
 </header>
