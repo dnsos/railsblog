@@ -4,18 +4,18 @@ class ArticlesTest < ApplicationSystemTestCase
   test 'visiting the index' do
     visit articles_url
 
-    assert_selector 'h1', text: 'Articles'
+    assert_selector 'h1', text: I18n.t('articles.all')
   end
 
   test 'creating an article' do
     visit articles_path
 
-    click_on 'New Article'
+    click_on I18n.t('articles.new')
 
-    fill_in 'Title', with: 'A new test article'
-    fill_in 'Body', with: 'A new test body'
+    fill_in I18n.t('articles.form.labels.title'), with: 'A new test article'
+    fill_in I18n.t('articles.form.labels.body'), with: 'A new test body'
 
-    click_on 'Create Article'
+    click_on I18n.t('articles.form.submit')
 
     assert_selector 'a', text: 'A new test article'
   end
